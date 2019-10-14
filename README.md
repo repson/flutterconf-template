@@ -1,10 +1,20 @@
 
 <p align="center">
-  <img src="https://cdn-images-1.medium.com/max/1200/1*5-aoK8IBmXve5whBQM90GA.png" width="200">
+  <img src="https://i.ibb.co/DpTw3QR/Flutter-Conf-logo.png" width="600">
 </p>
-<h1 align="center">Flutter Everywhere!</h2>
+<h2 align="center">Advanced Workshop Template</h2>
 
-This Flutter projects acts as a boilerplate to create true universal apps from a single codebase.
+This project will be used as a template in the Advanced Workshop about Flutter for Web & Desktop, during FlutterConf 2019 in Marbella, Spain.
+
+It has three branches:
+
+* **`master`** Starting point of the workshop: the `lib/` folder is empty.
+* **`platforms`** Added support for both desktop & web to the project.
+* **`responsive`** Added a responsive design to the app.
+
+## General
+
+This Flutter project acts as a boilerplate to create true universal apps from a single codebase.
 
 Currently, the Flutter frameworks supports these platforms:
 * Android
@@ -32,7 +42,7 @@ $ flutter run -d DEVICE
 First, clone the repository with the 'clone' command, or just download the zip.
 
 ```
-$ git clone git@github.com:jesusrp98/flutter-everywhere.git
+$ git clone git@github.com:jesusrp98/flutterconf-template.git
 ```
 
 Then, download either Android Studio or Visual Studio Code, with their respective [Flutter editor plugins](https://flutter.io/get-started/editor/). For more information about Flutter installation procedure, check the [official install guide](https://flutter.io/get-started/install/).
