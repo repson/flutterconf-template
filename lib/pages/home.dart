@@ -49,7 +49,7 @@ class HomePage extends StatelessWidget {
                     leading: CircleAvatar(
                       child: Text(post.title[0].toUpperCase()),
                     ),
-                    title: Text(post.title),
+                    title: Text(post.title, maxLines: 2),
                     trailing: Icon(Icons.chevron_right),
                     onTap: () => Navigator.push(
                       context,
@@ -62,8 +62,8 @@ class HomePage extends StatelessWidget {
               return Text("${snapshot.error}");
             }
 
-            // By default, shows a loading spinner.
-            return CircularProgressIndicator();
+            // Widget by default
+            return SizedBox();
           },
         ),
       ),
